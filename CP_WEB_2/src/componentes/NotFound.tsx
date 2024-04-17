@@ -1,4 +1,4 @@
- 
+ // nao achei necessário comentar esse código :)
 const NotFound: React.FC = () =>{
     return(
         <div>

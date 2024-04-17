@@ -1,7 +1,10 @@
 import React from "react";
+// Importando a imagem "bunny.png" que será usada na página de boas-vindas
 import WelcomImg from "../assets/bunny.png";
 
 const Landing: React.FC = () => {
+ // Return dos componentes
+ // Usando tailwind CSS para estilização
  return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
       <img src={WelcomImg} alt="Imagem de boas-vindas" className="mb-8 w-64 h-64 object-cover rounded-full" />
@@ -15,4 +18,6 @@ const Landing: React.FC = () => {
  );
 };
 
+
 export default Landing;
+
